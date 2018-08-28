@@ -21,6 +21,8 @@ and method is only present in sub (you need casting)
 - `public` visible to every other Class
 - `protected` visible to package and all subclasses
 - `private` visible only inside the same class  => getters and setters
+- `final` cannot change, and cannot be overriden
+- `static` only one instance is present above all Class instances, therefore can be called by the Class name
 - [Check modifiers here](http://net-informations.com/java/basics/img/access-modifier.png)
 
 ## Interfaces
