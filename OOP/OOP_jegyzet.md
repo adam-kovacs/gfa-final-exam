@@ -31,7 +31,6 @@ and method is only present in sub (you need casting)
 - Leads to polymorphism
 
 ## Abstract Classes
+- **GOAL: Provide complie time safety, contain general ideas, support inheritance
 - `abstract`  modifiers used in Class decleration, and abstract methods
 - Instance of abstract Class cannot be created, only inherited from
-- Abstract methods and classes are general ideas 
-- Provides Compile Time Safety
