@@ -1,6 +1,6 @@
 # Object Oriented Programming#
 
-###### Inheritance
+## Inheritance
 - **GOAL: recyclable, modularized code**
 - `extends` is a keyword
 - Direct / Indirect parents
@@ -15,14 +15,14 @@ and method is only present in sub (you need casting)
 - `super` is a reference variable, refers to direct superclass
 - The Diamond problem
 
-###### Acces modifiers
+## Acces modifiers
 - **GOAL: encapsulation, extra security layer, Principle of Least Privilege**
 - `default` also called package-private, visible only inside package
 - `public` visible to every other Class
 - `protected` visible to package and all subclasses
 - `private` visible only inside the same class  => getters and setters 
 
-###### Interfaces
+## Interfaces
 - **GOAL: Code safety, decouples Class and its users, Separation of Concerns**
 - An Interface is a contract between the implementing Class and the outside world
 - Blueprint for a class, methods and fields are not specified, they are abstract
@@ -30,7 +30,7 @@ and method is only present in sub (you need casting)
 - Leads to polymorphism
 - [Check modifiers here](http://net-informations.com/java/basics/img/access-modifier.png)
 
-###### Abstract Classes
+## Abstract Classes
 - `abstract`  modifiers used in Class decleration, and abstract methods
 - Instance of abstract Class cannot be created, only inherited from
 - Abstract methods and classes are general ideas 
